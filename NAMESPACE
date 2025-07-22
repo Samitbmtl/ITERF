@@ -1,0 +1,58 @@
+useDynLib(ITERF, .registration = TRUE)
+
+importFrom("parallel", mclapply)
+importFrom("graphics", "abline", "axis", "box", "boxplot", "bxp",
+           "legend", "lines", "matlines", "matplot", "mtext", "par", "plot",
+           "plot.new", "plot.window", "points", "rug", "segments",
+           "strwidth", "text", "title", "grconvertX", "grconvertY", "plot.default")
+importFrom("stats", "as.dist", "as.formula", "cutree", "dlnorm", "formula",
+           "hclust", "lowess", "median", "model.matrix", "na.omit",
+           "optim", "pgamma", "plnorm", "pnorm", "predict", 
+           "quantile", "qnorm", "runif", "sd", "supsmu", "var", "wilcox.test")
+importFrom("utils", "installed.packages", "txtProgressBar", "setTxtProgressBar",
+           "write.table", "tail")
+importFrom("grDevices", "gray")
+
+export(find.interaction.iterf,
+       holdout.vimp.iterf,
+       imbalanced.iterf,
+       impute.iterf,
+       max.subtree.iterf,
+       partial.iterf,
+       plot.competing.risk.iterf,
+       plot.quantreg.iterf,
+       plot.iterf,
+       plot.subsample.iterf,    
+       plot.survival.iterf,
+       plot.variable.iterf,       
+       predict.iterf,
+       predict.iterf_old,
+       print.iterf,
+       quantreg.iterf,
+       iterf,
+       iterf.cart,
+       iterf.fast,
+       iterf.news,
+       synthetic.iterf,
+       HET,
+       CMB,
+       HETSurv,
+       HETMaxQuad,
+       iextractBBOPid,
+       iextractBBOP,
+       subsample.iterf,
+       stat.split.iterf,
+       #tune,
+       tune.iterf,
+       tune.nodesize.iterf,
+       var.select.iterf,
+       vimp.iterf)
+
+
+S3method(max, subtree.iterf)
+S3method(predict, iterf)
+S3method(print, iterf)
+
+
+
+
