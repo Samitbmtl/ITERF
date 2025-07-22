@@ -42,7 +42,7 @@ Minimum proportion of treatment observations in each node. Should be between 0 a
 Maximum proportion of treatment observations in each node. Should be between iterf.TreatmentLowBound and 1 
 }
   \item{iterf.nbCore}{
-When set to -1 (default), ITERF will use all cpu's core available to make the calculations. Otherwise, will use the number of core indicated. (should be > 0 and <= Nbr CPU's core). Value 1 means no parallelism.
+When set to -1 (default), ITERF will use all cpu's core available to make the calculations. Otherwise, it will use the number of cores indicated (which should be > 0 and <= number of CPU's cores). A value 1 means no parallelism.
 }
   \item{...}{
 Other arguments used in the rfsrc function from the randomForestSRC package version 2.9.2 
