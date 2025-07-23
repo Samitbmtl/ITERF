@@ -10,8 +10,8 @@ Random forest to estimate the CATE (conditional average treatment effect) with a
 \usage{
 CMB(formula, 
     data, 
-    iterf.CenterResponse = FALSE,
-    iterf.CenterTreatment = FALSE,
+    iterf.CenterResponse = TRUE,
+    iterf.CenterTreatment = TRUE,
     iterf.nbCore = -1
     ...)
 }
