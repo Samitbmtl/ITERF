@@ -2,7 +2,7 @@
 The ITERF package provides methods for estimating treatment effects in two scenarios: (1) survival outcomes with right-censoring and a binary treatment, and (2) continuous outcomes with a continuous treatment. All methods are based on random forests, where trees are constructed using splitting rules that aim to maximize the heterogeneity of the estimated treatment effect. 
 
 # Authors
-This package is written and maintained by *Denis Larocque (<denis.larocque@hec.ca>)* , *Sami Tabib (<sami.tabib@hec.ca>)*
+This package is mainly written and maintained by *Sami Tabib (<sami.tabib@hec.ca>)*. *Denis Larocque (<denis.larocque@hec.ca>)* contributed to the development. Since ITERF uses part of the code of the randomForestSRC package,  we acknowledge the contribution of the two authors of randomForestSRC, *Hemant Ishwaran* and *Udaya B. Kogalur*.
 
 # Installation
 To install this package, follow these steps:
@@ -51,7 +51,6 @@ pred$predicted
 
 ```
 # References
-Tabib, S. and Larocque, D. (2020). Non-Parametric Individual Treatment Effect Estimation for Survival Data with Random Forests. Bioinformatics 36, 629–636.
-https://academic.oup.com/bioinformatics/article/36/2/629/5542949
-
+Tabib, S. and Larocque, D. (2020). Non-Parametric Individual Treatment Effect Estimation for Survival Data with Random Forests. Bioinformatics 36, 629–636. https://academic.oup.com/bioinformatics/article/36/2/629/5542949
 Tabib, S. and Larocque, D. (2024). Comparison of Random Forest Methods for Conditional Average Treatment Effect Estimation with a Continuous Treatment. Statistical Methods in Medical Research. 2024;33(11-12):1952-1966. doi:10.1177/09622802241275401.
+Tabib, S. and Larocque, D. (2025). Random Forests for Individual Treatment Effect Estimation with the R Package ITERF. Submitted for publication.

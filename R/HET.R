@@ -19,8 +19,8 @@ HET <- function(formula, data, ntree = 1000,
                   do.trace = FALSE,
                   statistics = FALSE,
 				  #Sami
-				  iterf.CenterResponse = FALSE,
-				  iterf.CenterTreatment = FALSE,
+				  iterf.CenterResponse = TRUE,
+				  iterf.CenterTreatment = TRUE,
 				  iterf.nbCore = -1)
 {
   #print (formula)
