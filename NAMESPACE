@@ -38,6 +38,7 @@ export(find.interaction.iterf,
        CMB,
        HETSurv,
        HETMaxQuad,
+	   CMBMaxQuad,
        iextractBBOPid,
        iextractBBOP,
        subsample.iterf,
@@ -46,6 +47,8 @@ export(find.interaction.iterf,
        tune.iterf,
        tune.nodesize.iterf,
        var.select.iterf,
+       iextractBeta,
+       get.max.effect,
        vimp.iterf)
 
 

@@ -288,7 +288,7 @@ iterf <- function(formula, data, ntree = 1000,
   	{
   	  #Sami TO REMOVE
   		#stop("Not supported")
-  	  print("Not supported")
+  	  #print("Not supported")
   	}
     ## Don't need the data anymore.
     remove(data)
