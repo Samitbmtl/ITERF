@@ -1,7 +1,7 @@
 # ITERF
 The ITERF package provides methods for estimating treatment effects in two scenarios: (1) survival outcomes with right-censoring and a binary treatment, and (2) continuous outcomes with a continuous treatment. All methods are based on random forests, where trees are constructed using splitting rules that aim to maximize the heterogeneity of the estimated treatment effect.
 
-The four functions to build random forests are:
+The five functions to build random forests are:
 - HETMaxQuad: Random forest to estimate the maximum treatment effect with a continuous treatment and a continuous response. It is based on trees using a split rule that seeks to increase the heterogeneity of the maximum treatment effect.
 
 - CMBMaxQuad: Random forest to estimate the maximum treatment effect with a continuous treatment and a continuous response. It is based on a CART type MOdel Based recursive partitioning (MOB) algorithm.
