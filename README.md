@@ -6,6 +6,8 @@ The four functions to build random forests are:
 
 - CMBMaxQuad: Random forest to estimate the maximum treatment effect with a continuous treatment and a continuous response. It is based on a CART type MOdel Based recursive partitioning (MOB) algorithm.
 
+- CMBMaxQuad: Random forest to estimate the maximum treatment effect with a continuous treatment and a continuous response. It is based on a CART type MOdel Based recursive partitioning (MOB) algorithm.
+
 - HET: Random forest to estimate the slope of the treatment curve with a continuous treatment and a continuous response. It is based on trees using a split rule that seeks to increase the heterogeneity of the slope.
 
 - CMB: Random forest to estimate the slope of the treatment curve with a continuous treatment and a continuous response. It is based on a CART type MOdel Based recursive partitioning (MOB) algorithm.
@@ -66,4 +68,4 @@ Tabib, S. and Larocque, D. (2020). Non-Parametric Individual Treatment Effect Es
 
 Tabib, S. and Larocque, D. (2024). Comparison of Random Forest Methods for Conditional Average Treatment Effect Estimation with a Continuous Treatment. Statistical Methods in Medical Research. 2024;33(11-12):1952-1966. doi:10.1177/09622802241275401.
 
-Tabib, S. and Larocque, D. (2025). Random Forests for Individual Treatment Effect Estimation with the R Package ITERF. Submitted for publication.
+Tabib, S. and Larocque, D. (2025). Random Forests for Individual Treatment Effect Estimation with the R Package ITERF. To be published in Computer Methods and Programs in Biomedicine
